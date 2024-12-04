@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    border-bottom: 2px solid #444;
+}
+
+header h1 {
+    margin: 0;
+    color: #0fdb84;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+#blood {
+    color: none;
+}
+
+.chart-container {
+    width: 45%;
+    margin: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 100, 0.5);
+    padding: 15px;
+}
+
+.chart-container h2 {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #0fdb84;
+}
+
+
+canvas {
+    background-color: #000;
+    border: 1px solid #555;
+    border-radius: 8px;
+}
+
+.status {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.status span {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.status .danger {
+    background-color: red;
+}
+
+.status .normal {
+    background-color: yellow;
+    color: black;
+}
+
+.status .safe {
+    background-color: #0fdb84;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border-top: 2px solid #444;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

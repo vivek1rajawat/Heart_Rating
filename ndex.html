@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish ECG Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Times New Roman', Times, serif;">Embedded Device for Cardiovascular Analysis</h1>
+    </header>
+    <main>
+        <!-- Graph Containers -->
+        <div class="chart-container">
+            <h2>ECG Graph &#x1F4C8;
+            </h2>
+            <canvas id="ecgChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Heart Rate <span>&#x2764;&#x200D;&#x1FA79;</span>
+
+            </h2>
+            <canvas id="heartRateChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Blood Pressure <span id="blood">&#127777;
+            </span></h2>
+            <canvas id="bloodPressureChart"></canvas>
+        </div>
+    </main>
+    <div class="status">
+        <span id="statusLabel" class="normal">Status: Normal</span>
+    </div>
+    <footer>
+        <p>Designed for Cardiovascular Diagnostics</p>
+    </footer>
+    <script src="app.js">
+    </script>
+</body>
+</html>
