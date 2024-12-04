@@ -75,4 +75,3 @@ function updateCharts() {
 setInterval(updateCharts, 500);
 
 // i have won this marathon by making this project 
-//fsjaflsa asfdkljsaf d
